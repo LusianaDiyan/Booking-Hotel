@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    tools:context="com.example.android.kamarcom.ListHotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#efeff1"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="0sp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/a"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:id="@+id/viewbook"/>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Hotel"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="6dp"
+                android:id="@+id/namabuku"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bintang 4"
+                android:textSize="16dp"
+                android:id="@+id/category"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jl.Mayjen Sungkono Kav.87 - 89"
+                android:textSize="14dp"
+                android:id="@+id/price"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surabaya, Indonesia"
+                android:textSize="14dp"
+                android:id="@+id/review"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PILIH HOTEL"
+                android:layout_marginBottom="10dp"
+                android:background="#488BF8"
+                android:textColor="#FFFF"
+                android:id="@+id/btnpilih"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
